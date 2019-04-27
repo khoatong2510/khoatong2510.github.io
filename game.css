@@ -1,4 +1,6 @@
 .gameContainer {
+    width: 60%;
+    margin: auto;
     height: 100vh;
     position: relative;
     margin-top: 140px;
@@ -43,3 +45,7 @@
     float: right;
     margin-right: 30px;
 } 
+
+#gameScroll {
+   top: 600px;
+}

@@ -23,7 +23,7 @@ html {
 }
 
 body {
-    width: 60%;
+    /* width: 60%; */
     margin: auto;
 }
 
@@ -69,6 +69,8 @@ hr {
 /* nav */
 
 .nav {
+    width: 60%;
+    margin: auto;
     display: flex;
     align-items: center;
     height: 180px;
@@ -102,6 +104,8 @@ hr {
 }
 
 .landingWrapper {
+    width: 60%;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
