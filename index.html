@@ -1,1 +1,104 @@
-"Hello World" 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Lora|Open+Sans|Raleway|Roboto" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <!-- navigation  -->
+    <div class="nav">
+        <div class="contactMe">
+            <img src="./images/export/Symbol 5 – 1.png" alt="" >
+            <a href="#">Contact Me</a>
+        </div>
+
+        <div class="navIconContainer">
+            <a href="#"><img src="./images/export/GitHub-Mark-120px-plus.png" width="30" height="30" alt=""></a>
+            <a href="#"><img src="./images/export/dribbble-icon.png" width="30" height="30" alt=""></a>
+            <a href="#"><img src="./images/export/youtubeicon.png" height="30" alt=""></a>
+        </div>
+    </div>
+
+    <!-- landing -->
+    <div class="landing">
+        <div class="landingWrapper">
+            <div class="landingL">
+                <h1 class="myName"><b>Khoa Tong</b></h1>
+                <p style="color: #8F9EA5;">I'm a web frontend developer and I love graphical programming. </p>
+                <ul  style="color: #8F9EA5;">
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>PHP, ASP.NET</li>
+                    <li>OpenGL, Vulkan</li>
+                    <li>Blender</li>
+                </ul>
+            </div>
+            <div class="landingR">
+                <img src="./images/export/cat_group.png" width="400" alt="">
+            </div>
+        </div>
+        <a href="#topicSection"> <img class="scroll" src="./images/downarrow.svg" width="52" alt=""></a>
+    </div>
+
+    <!-- Topics -->
+    <div class="topicsContainer" id="topicSection">
+        <div class="topicWrapper">
+            <h2><b>Topics</b></h2>
+            <div class="topics">
+                <div class="topicBox" id="webdev" style="color: #17191A">
+                    <b>Web Portfolios</b>
+                </div>
+                <div class="topicBox" id="gamedev">
+                    <b>Game Programming</b>
+                </div>
+                <div class="topicBox" id="artMusic">
+                    <b>Arts and Musics</b>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Web portfolios -->
+    <div class="portfolioContainer" id="portfolioSection">
+        <div class="portfolioWrapper">
+            <h2>Web Portfolios</h2>
+            <h5>Landing Page</h5>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, deleniti quas perferendis quo veritatis unde fugiat, vel, fugit iusto sunt aspernatur? </p>
+        </div>
+        
+        <!-- there should be a carousel here  -->
+        <img src="./images/landingPageExample.jpg" class="landingPageImg" alt=""> 
+    </div>
+
+    <!-- Game Programming -->
+    <div class="gameContainer" id="gameSection">
+        <div class="gameWrapper">
+            <h2>Game Programming</h2>
+            <h5>Blogs</h5>
+                <div class="content"><p>Blogs and articles of the knowledge I have gain about game programming during my freetime.</p></div>
+        </div>
+        
+        <div class="gameImg"></div>
+    </div>
+
+    <!-- art and music -->
+
+    <div class="artMusicContainer" id="artMusicSection">
+        <div class="artMusicWrapper">
+            <h2>Arts and musics</h2>
+            <hr>
+            <h5>Showcases</h5>
+            <p>I'm also have interest in creative subjects as arts and musics, I self-taught piano and drawing, these are my works.</p>
+        </div>
+        <img src="./images/sheetmusic.jpg" alt="">
+    </div>
+
+
+
+</body>
+</html>
