@@ -1,13 +1,18 @@
-$("#webdev").click(function() {
-    $('html, body').animate({
-        scrollTop: $('#portfolioSection').offset().top
-    }, 'slow');
-});
-
-$("#gamedev").click(function() {
-    $("#gameSection").scroll();
-});
-
-$("#artMusic").click(function() {
-    $("#artMusicSection").scroll();
-});
+$(document).ready(function() {
+    $('.topicBox#webdev').click(function() {
+        $('body, html').animate({
+            scrollTop: $(".portfolioContainer#portfolioSection").offset().top
+          }, 0);
+    });
+    $('.topicBox#gamedev').click(function() {
+        $('body, html').animate({
+                scrollTop: $(".gameContainer#gameSection").offset().top
+        }, 0);
+    });
+    $('.topicBox#artMusic').click(function() {
+        $('body, html').animate({
+                scrollTop: $(".artMusicContainer#artMusicSection").offset().top
+        }, 0);
+    });
+    
+})
