@@ -14,5 +14,4 @@ $(document).ready(function() {
                 scrollTop: $(".artMusicContainer#artMusicSection").offset().top
         }, 0);
     });
-    
 })
