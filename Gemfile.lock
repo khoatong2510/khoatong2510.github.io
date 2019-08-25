@@ -246,6 +246,8 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-feed
+  jekyll-seo-tag
   jekyll-theme-console
 
 BUNDLED WITH

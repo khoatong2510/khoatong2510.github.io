@@ -30,7 +30,8 @@ logo: my_logo.jpg
 # Build settings
 theme: jekyll-theme-console 
 plugins:
-# - jekyll-feed
+    - jekyll-feed
+    - jekyll-seo-tag
 header_pages:
     - index.markdown
     - about.markdown
