@@ -25,16 +25,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
-github:
-    repository_url: https://github.com/kodah2510/kodah2510.github.io
-    is_user_page: true
-    is_project_page: true
-    owner_url: https://github.com/kodah2510
+github: [metadata]
 logo: my_logo.jpg
 # Build settings
 theme: jekyll-theme-console 
 plugins:
- - jekyll-feed
+# - jekyll-feed
 header_pages:
     - index.markdown
     - about.markdown
@@ -43,7 +39,7 @@ style: light
 footer: 'Add me on <a href="https://www.facebook.com/khoa.tong2510">Facebook</a>'
 
 markdown: kramdown
-remote_theme: b2e3e8/jekyll-theme-console
+#remote_theme: b2e3e8/jekyll-theme-console
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
