@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0px;  margin-top: 22px;  font-weight: bold;  co
 
 p, ul, ol { margin: 0px;  color: $text-color; }
 a { text-decoration: underline;  color: $link-color; }
-a:hover { color: $background-color; background-color: $base-color; }
+a:hover { color: $background-color; background-color: $hover-bg-color; }
 .primary-text { color: $primary-color; }
 @media only screen and (max-device-width: 500px) { * { font-size: $mobile-font-size !important; } }
 /*h1:before { content: "#";  margin-right: 9px; }
@@ -100,8 +100,8 @@ pre { background-color: $background-color;  border: none;  padding: 0px;  overfl
 .highlight .gs { font-weight: bold } /* Generic.Strong */
 .highlight .gu { color: #aaaaaa } /* Generic.Subheading */
 .highlight .gt { color: #aa0000 } /* Generic.Traceback */
-.highlight .kc { font-weight: bold } /* Keyword.Constant */
-.highlight .kd { font-weight: bold } /* Keyword.Declaration */
+.highlight .kc { font-weight: bold; color: #c96dbe } /* Keyword.Constant */
+.highlight .kd { font-weight: bold; color: #c96dbe} /* Keyword.Declaration */
 .highlight .kp { font-weight: bold } /* Keyword.Pseudo */
 .highlight .kr { font-weight: bold } /* Keyword.Reserved */
 .highlight .kt { color: #445588; font-weight: bold } /* Keyword.Type */
@@ -115,8 +115,9 @@ pre { background-color: $background-color;  border: none;  padding: 0px;  overfl
 .highlight .ne { color: #990000; font-weight: bold } /* Name.Exception */
 .highlight .nf { color: #990000; font-weight: bold } /* Name.Function */
 .highlight .nn { color: #555555 } /* Name.Namespace */
-.highlight .nt { color: #000080 } /* Name.Tag */
+.highlight .nt { color: #838bfc } /* Name.Tag */
 .highlight .nv { color: #008080 } /* Name.Variable */
+// .highlight .nx { color: #008080 }
 .highlight .ow { font-weight: bold } /* Operator.Word */
 .highlight .w { color: #bbbbbb } /* Text.Whitespace */
 .highlight .mf { color: #009999 } /* Literal.Number.Float */
@@ -139,3 +140,25 @@ pre { background-color: $background-color;  border: none;  padding: 0px;  overfl
 .highlight .vg { color: #008080 } /* Name.Variable.Global */
 .highlight .vi { color: #008080 } /* Name.Variable.Instance */
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
+.highlighter-rouge { color: #68fc76 }
+
+// my style
+.footer {
+    // position: fixed;
+    display: block;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.cv-list-title {
+    color: #daeb2d;
+}
+
+.cv-list-sub-title {
+    color: #76d5f5;
+}

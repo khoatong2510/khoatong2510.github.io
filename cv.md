@@ -6,7 +6,7 @@ permalink: /my_cv/
 
 # Curriculum Vitae (CV)
 
-## Education
+<h2 class="cv-list-title">Education</h2>
 
 * From 2014 to 2018
 
@@ -16,11 +16,11 @@ Bachelor of Information Technology, Hanoi University of Science and Technology, 
 
 Pursuing Master of Information Technology in Queensland University of Technology
 
-## Experience
+<h2 class="cv-list-title">Experience</h2>
 
-### Vocational
+<h3 class="cv-list-sub-title">Vocational</h3>
 
-#### Full time
+```Full time```
 
 * June, 2018 - January, 2019
 
@@ -30,7 +30,7 @@ Worked as a Junior Game Engineer in Punch Entertainment
     + Worked closely with game designers to delivery new contents
     + Technology stack: HTML, CSS, Javascript, Perl
 
-#### Internship
+```Internship```
 
 * March, 2019 - January, 2020
 
@@ -40,14 +40,14 @@ Web Developer in BRIKS Ltd Pty, Brisbane, Australia
     + Intergrating data from NodeJS and AWS back-end services.
     + Technology Stack: ReactJS, NodeJS
 
-#### Part time
+```Part time```
 
 * present
 
 Working as content manager for UseYourPower, Brisbane
 
 
-### Volunteer
+<h3 class="cv-list-sub-title">Volunteer</h3>
 
 * November, 2019
 
@@ -56,11 +56,12 @@ Volunteered in **SIGGRAPH Asia 2019**, Brisbane
     + Badgets checking
     + Event preparation support
 
-###  Event
+<h3 class="cv-list-sub-title">Event</h3>
 
 * September, 2019
 
 Participated in Code Network Winter Hackathon, Brisbane
+    + Project: <a href="https://github.com/kodah2510/flashy_app">Flashy</a>
     + Ideated and design an application which can randomly notify students about lecture notes in their free time
     + Sketching a medium fidelity and building MVP
     + Technology Stack: ReactJS, ExpressJS
@@ -71,7 +72,7 @@ Participated in Queensland VR Hackathon, Brisbane
     + Built a small VR game demo under the theme of "Sustainable"
     + Technology used: C#, Unity
 
-## Programming Skills
+<h2 class="cv-list-title">Programming Skills</h2>
 
 -Technology
 React, Laravel, Wordpress,
@@ -79,7 +80,7 @@ React, Laravel, Wordpress,
 -Language
 HTML, CSS, Javascript, PHP, C++
 
-## University Projects
+<h2 class="cv-list-title">University Projects</h2>
 
 **Library Management System**
     - LMS app includes simple authentication, database basic CRUD operation
@@ -93,7 +94,7 @@ HTML, CSS, Javascript, PHP, C++
 **Multiobject optimization problem**
     - Research on Multi-Factorial Optimization algorithm in TSP
     
-## Personal Projects
+<h2 class="cv-list-title">Personal Projects</h2>
 
 **OpenGL Rendering Engine**
     - Project: <a href="gitlab.com/dangkhoa1996/wizwar">WizWar</a>
