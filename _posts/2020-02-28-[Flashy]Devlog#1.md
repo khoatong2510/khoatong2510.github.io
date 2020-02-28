@@ -13,7 +13,7 @@ In the Hackathon, we were not able to finish the app on time, however I have dec
 
 So far, the login and dashboard page has been reworked. 
 <br>
-<img src="/assets/login_screenshot.png" alt="loginscreenshot" width="600"/>
+<img src="{{ site.url }}/assets/login_screenshot.png" alt="loginscreenshot" width="600" />
 <small>Login Screenshot</small>
 <br>
 
