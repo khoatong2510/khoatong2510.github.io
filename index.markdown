@@ -7,7 +7,7 @@ permanlink: /
 ---
 # Welcome to my blog!
 -----
-For the love of programming.
+
 
 
 

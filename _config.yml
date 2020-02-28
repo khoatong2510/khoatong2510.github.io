@@ -34,10 +34,11 @@ plugins:
     - jekyll-seo-tag
 header_pages:
     - index.markdown
-    - about.markdown
+    - about_me.md
     - portfolios.md
-style: light
-footer: 'Add me on <a href="https://www.facebook.com/khoa.tong2510">Facebook</a>'
+    - cv.md
+style: black
+footer: 'Powered by Jekyll, created by <a href="https://github.com/kodah2510">Khoa Tong</a>'
 
 markdown: kramdown
 #remote_theme: b2e3e8/jekyll-theme-console
