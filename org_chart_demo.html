@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/orgchart/2.1.9/css/jquery.orgchart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="org_chart.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/orgchart/2.1.9/js/jquery.orgchart.min.js"></script>
+    <script type="text/javascript" src="org_chart.js"></script>
+    <script type="text/javascript" src="context_menu.js"></script>
+    <title>Test Org Chart</title>
+</head>
+
+<body>
+    <div id="chart-container"></div>
+    <span id="chart-state-panel" class="radio-panel">
+        <input type="radio" name="chart-state" id="rd-view" value="view"><label for="rd-view">View</label>
+        <input type="radio" name="chart-state" id="rd-edit" value="edit" checked="true"><label
+            for="rd-edit">Edit</label>
+    </span>
+
+    <div id="edit-panel">
+        <label class="selected-node-group">Selected node:</label>
+        <input type="text" id="selected-node" class="selected-node-group">
+        <br>
+        <label for="selected-node-hierarchy-code">Hierarchy code</label>
+        <input type="text" id="selected-node-hierarchy-code"> 
+        <br>
+        <label>new node:</label>
+        <ul id="new-nodelist">
+            <li><input type="text" class="new-node"></li>
+        </ul>
+        
+        <button class="oci oci-plus-circle btn-inputs" id="btn-add-input">add input node</button>
+        <button class="oci oci-minus-circle btn-inputs" id="btn-remove-input">remove input node</button>
+
+        <span id="node-type-panel" class="radio-panel">
+            <input type="radio" name="node-type" id="rd-parent" value="parent"><label
+                for="rd-parent">Parent(root)</label>
+            <input type="radio" name="node-type" id="rd-child" value="children"><label for="rd-child">Child</label>
+            <input type="radio" name="node-type" id="rd-sibling" value="siblings"><label
+                for="rd-sibling">Sibling</label>
+        </span>
+        <button type="button" id="btn-add-nodes">Add</button>
+        <button type="button" id="btn-delete-nodes">Delete</button>
+        <button type="button" id="btn-reset">Reset</button>
+        <!-- <button type="button" id="btn-get-hierarchy">Get Hierarchy</button> -->
+
+        <!-- <div id=""></div> -->
+       
+    </div>
+
+    <ul class="contextmenu hidden">
+        <li><a href="#">Attribute 1</a></li>
+        <li><a href="#">Attribute 2</a></li>
+        <li><a href="#">Attribute 3</a></li>
+        <li><a href="#">Attribute 4</a></li>
+        <li><a href="#">Attribute 5</a></li>
+        <li><a href="#">Attribute 6</a></li>
+        <li><a href="#">Attribute 7</a></li>
+        <li><a href="#">Attribute 8</a></li>
+        <li><a href="#">Attribute 9</a></li>
+        <li><a href="#">Attribute 10</a></li>
+    </ul>
+</body>
+
+</html>

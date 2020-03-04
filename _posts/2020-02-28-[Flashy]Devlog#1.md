@@ -17,7 +17,7 @@ So far, the login and dashboard page has been reworked.
 <small>Login Screenshot</small>
 <br>
 
-One interesting technique I discovered while setup routes for login page is the private routes using `` `react-router-dom` `` package. By creating a context variable controlling authentication state, a route can be set as private by checking that context value.
+One interesting technique I discovered while setting up the login page is private routes using `` `react-router-dom` `` package. By creating a context variable controlling authentication state, a route can be set as private by checking that context value.
 
 First, I created an object ```AuthContext``` as context variable.
 

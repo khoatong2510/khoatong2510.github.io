@@ -37,6 +37,7 @@ header_pages:
     - about_me.md
     - portfolios.md
     - cv.md
+    - org_chart_demo.html
 style: black
 footer: 'Powered by Jekyll, created by <a href="https://github.com/kodah2510">Khoa Tong</a>'
 

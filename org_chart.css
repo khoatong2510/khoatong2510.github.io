@@ -1,0 +1,48 @@
+#chart-container {
+    font-family: Arial;
+    height: 500px;
+    border: 2px dashed #aaa;
+    border-radius: 5px;
+    overflow: auto;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.contextmenu {
+    position: absolute;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    list-style: none;
+    overflow: hidden;
+    z-index: 9999999;
+
+}
+
+.contextmenu li {
+    border-left: 3px solid transparent;
+    transition: ease .2s;
+}
+
+.contextmenu li a {
+    display: block;
+    padding: 10px;
+    font-family: monospace;
+    text-decoration: none;
+    transition: ease .2s;
+}
+
+.contextmenu li:hover {
+    border-left: 3px solid #aaa;
+}
+
+.contextmenu li:hover a {
+    color: #fff;
+    background-color: #333;
+}
+
+
