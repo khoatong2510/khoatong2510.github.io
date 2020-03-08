@@ -1,4 +1,4 @@
-#chart-container {
+.chart-container {
     font-family: Arial;
     height: 500px;
     border: 2px dashed #aaa;
