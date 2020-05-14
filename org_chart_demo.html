@@ -10,8 +10,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/orgchart/2.1.9/js/jquery.orgchart.min.js"></script>
+    <script type="module" src="three.js"></script>
+    <script type="module" src="WebGL.js"></script>
     <script type="module" src="org_chart.js"></script>
     <script type="module" src="context_menu.js"></script>
+    <script type="module" src="org_chart_tab.js"></script>
+    <script type="module" src="render_3d_graph.js"></script>
+
     <title>Test Org Chart</title>
 </head>
 
@@ -59,10 +64,6 @@
         <button type="button" id="btn-add-nodes">Add</button>
         <button type="button" id="btn-delete-nodes">Delete</button>
         <button type="button" id="btn-reset">Reset</button>
-        <!-- <button type="button" id="btn-get-hierarchy">Get Hierarchy</button> -->
-
-        <!-- <div id=""></div> -->
-       
     </div>
 
     <ul class="contextmenu hidden">
@@ -78,90 +79,6 @@
         <li><a href="#" class="title-change">Attribute 9</a></li>
         <li><a href="#" class="title-change">Attribute 10</a></li>
     </ul>
-
-    <script>
-        $(document).ready(function() {
-            var $wrapper = $('.tab-wrapper'),
-                $allTabs = $wrapper.find('.tab-content > div'),
-                $tabMenu = $wrapper.find('.tab-menu li'),
-                $line = $('<div class="line"></div>').appendTo($tabMenu);
-
-            $allTabs.not(':first-of-type').hide();
-            $tabMenu.filter(':first-of-type').find(':first').width('100%');
-
-            $tabMenu.each(function(i) {
-                $(this).attr('data-tab', 'tab' + i);
-            });
-
-            $allTabs.each(function(i) {
-                $(this).attr('data-tab', 'tab' + i);
-            });
-
-            $tabMenu.on('click', function() {
-                var dataTab = $(this).data('tab'),
-                    $getWrapper = $(this).closest($wrapper);
-
-                $getWrapper.find($tabMenu).removeClass('active');
-                $(this).addClass('active');
-
-                $getWrapper.find('.line').width(0);
-                $(this).find($line).animate({'width':'100%'}, 'fast');
-                $getWrapper.find($allTabs).hide();
-                $getWrapper.find($allTabs).filter('[data-tab=' + dataTab + ']').show();
-            });
-
-
-
-        });
-    </script>
-    <style>
-        .tab-wrapper {
-            margin: 60px auto;
-            width: 90%;
-        }
-
-        .tab-menu li {
-            position: relative;
-            background-color: #fff;
-            color: #bcbcbc;
-            display: inline-block;
-            padding: 20px 40px;
-            opacity: 0.8;
-            cursor: pointer;
-            z-index: 0;
-        }
-
-        .tab-menu li:hover {
-            color: #464646;
-        }
-
-        .tab-menu li.active {
-            color: #464646;
-            opacity: 1;
-        }
-
-        .tab-menu li.active:hover {
-            color: #464646;
-        }
-
-        .tab-content>div {
-            background-color: #fff;
-            box-sizing: border-box;
-            width: 100%;
-            padding: 20px;
-            min-height: 200px;
-        }
-
-        .line {
-            position: absolute;
-            width: 0;
-            height: 7px;
-            background-color: aqua;
-            top: 0;
-            left: 0;
-        }
-    </style>
-
 </body>
 
 </html>
