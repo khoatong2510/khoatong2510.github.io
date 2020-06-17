@@ -1,10 +1,10 @@
 ---
-layout: page
+layout: resume
 title: CV
 permalink: /my_cv/
 ---
 
-# Curriculum Vitae (CV)
+<!-- # Curriculum Vitae (CV)
 
 <h2 class="cv-list-title">Education</h2>
 
@@ -110,7 +110,7 @@ HTML, CSS, Javascript, PHP, C++
     - Frontend built in Bootstrap, JQuery,
     - Use Laravel Framework for backend implementaion
     - Online payment using Stripe API
-    
+     -->
 
 
 

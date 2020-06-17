@@ -1,16 +1,53 @@
----
-layout: default
----
-{{ content }}
-{% assign contentwonl = content | strip_newlines %} {% unless contentwonl == ""  %} <br /> {% endunless %} <!-- add line break if there is any content -->
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
 
-{%- if site.posts.size > 0 -%}
-  <ul>
-    {%- for post in site.posts -%}
-    <li>
-      {%- assign date_format = "%Y-%m-%d" -%}
-      [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-    </li>
-    {%- endfor -%}
-  </ul>
-{%- endif -%}
+
+  <style>
+    @keyframes fadein-anim {
+      from { opacity: 0.0; top: 100px; }
+      to { opacity: 1.0; top: 0px; }
+    }
+    .fadein-2s {
+      position: relative;
+      animation-name: fadein-anim;
+      animation-duration: 2.2s;
+    }
+    .fadein-delay-2s {
+      position: relative;
+      animation-name: fadein-anim;
+      animation-duration: 2.2s;
+      animation-delay: 0.2s;
+    }
+
+    .column {
+      float: left;
+      width: 50%;
+      text-align: center;
+    }
+    .welcome-title {
+      font-size: 80px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 800;
+      padding-top: 100px;
+    }
+
+  </style>
+  <div style="height: 100vh; width: 60vw; margin: auto; text-align: center;">
+    <h1 class="fadein-2s welcome-title">Welcome!</h1>
+    <h2 class="fadein-delay-2s" style="margin-top: -50px; padding-bottom: 50px">My name Khoa Tong</h2>
+    <div class="fadein-delay-2s" >
+      <div class="column">
+        <h4>Checkout my Portfolios</h4>
+        <a href="{{ 'portfolios' | prepend: site.baseurl }}"><img style="margin: auto" src="{{"/assets/project.svg" | relative_url}}" alt="Portfolios" width="100px"/></a>
+      </div>
+      <div class="column">
+        <h4>Take a look at my CV</h4>
+        <a href="{{ 'my_cv' | prepend: site.baseurl }}"><img style="margin: auto" src="{{"/assets/cv.svg" | relative_url}}" alt="CV" width="100px" /></a>
+      </div>
+    </div>
+  </div>
+</body>
+  <!-- <h1 style="font-size: 100px">my page</h1> -->
+</html>

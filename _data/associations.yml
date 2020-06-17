@@ -1,0 +1,23 @@
+# Associations
+# comment out the urls if you do not wish to display them
+
+- organization: Code Network Winter Hackathon 2019
+  role: Participant
+  year: Sep, 2019
+  # url: https://github.com/kodah2510/flashy_app
+  summary: <ul><li>Project&colon; <a href="https://github.com/kodah2510/flashy_app">Flashy</a></li><li>Ideated and design an application which can randomly notify students about lecture notes in their free time</li><li>Sketching a medium fidelity and building MVP</li><li>Technology Stack&colon; ReactJS, ExpressJS</li></ul>
+
+- organization: Queensland VR Hackathon 2019
+  role: Participant
+  year: Oct, 2019
+  # url: ""
+  summary: <ul><li>Built a small VR game demo under the theme of "Sustainable"</li><li>Technology used&colon; C#, Unity</li></ul>
+
+
+
+- organization: SIGGRAPH Asia 2019
+  role: Volunteer
+  year: Nov, 2019
+  # url: https://sa2019.siggraph.org/
+  summary: Guests enquires support, entry badgets checking, event preparation support
+
