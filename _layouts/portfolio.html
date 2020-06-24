@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body>
+        {% include navigation.html %}
+        <main>
+            <style>
+                .column-3 {
+                    width: 32%;
+                    float: left;
+                }
+                .container {
+                    /* text-align: center; */
+                    margin: auto;
+                }
+
+                .row {
+                    padding: 20px 0;
+                    display: flex;
+                    justify-content: space-between;
+                }
+                .card-img {
+                    display: block;
+                    margin-bottom: 0.5rem;
+                    width: 100%;
+                    height: 140px;
+                }
+
+                .project-card {
+                    border: solid 0.5px grey;
+                    padding-bottom: 1rem;
+                    position: relative;
+                    transition: top 0.2s ease, box-shadow 0.2s ease;
+                }
+                .project-card:hover {
+                    box-shadow: 0 0.5rem 1rem 1px grey;
+                    top: -0.2rem;
+                    cursor: pointer;
+                }
+                .card-title {
+                    margin-left: 10px;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                }
+                .card-subtitle {
+                    margin-left: 10px;
+                }
+            </style>
+            <script type="text/javascript">
+                function handleClick(link) {
+                    window.location.href = link + '/'
+                }
+            </script>
+            <h1>Portfolios</h2>
+            <p>These are some featured projects that I have been worked on</p>
+            <div class="container">
+                <div class="row">
+                    <div class="column-3">
+                        <div class="project-card" onclick="handleClick('wizwar')">
+                            <img class="card-img" src="{{ '/assets/WizWar.png' | relative_url }}" class="d-block" alt="project_thumbnail" />
+                            <h3 class="card-title">WizWar</h3>
+                            <small class="card-subtitle">A 3D game using C++, OpenGL</small>
+                        </div>
+                    </div>
+                    <div class="column-3">
+                        <div class="project-card" onclick="handleClick('alpha-hotel')">
+                            <img class="card-img" src="{{ '/assets/alpha-hotel.png' | relative_url }}" class="d-block" alt="project_thumbnail" />
+                            <h3 class="card-title">Alpha Hotel</h3>
+                            <small class="card-subtitle">A landing page for an imaginary hotel</small>
+                        </div>
+                    </div>
+                    <div class="column-3">
+                        <div class="project-card" onclick="handleClick('flashy')">
+                            <img class="card-img" src="{{ '/assets/flashy.png' | relative_url }}" class="d-block" alt="project_thumbnail" />
+                            <h3 class="card-title">Flashy</h3>
+                            <small class="card-subtitle">A flashcard web application</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+    {% include footer.html %}
+</html>

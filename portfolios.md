@@ -1,10 +1,7 @@
 ---
-layout: default
+layout: portfolio
 title: Portfolios
 permalink: /portfolios/
 ---
 
-#Portfolios
-
-Under construction
 
