@@ -21,6 +21,9 @@ layout: default
   {% if page.cover_img_link %}
   <img class="cover-img" src="{{ page.cover_img_link }}" alt="cover-img" width="{{ page.img_width }}" height="{{ page.img_height }}" />
   {% endif %}
+  {% if page.embed_video %}
+  {{ page.embed_video }}
+  {% endif %}
   <div class="post-line"></div>
 
   {{ content }}
