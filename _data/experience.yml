@@ -20,4 +20,4 @@
 - company: BRIKS
   position: Junior Fullstack Developer
   duration: Sep 2020 &mdash; now
-  summary: <ul class="resume-item-list"><li>Project&colon; <a href="https://coursepal.app">Coursepal Connect</a></li><li>Design and Implement the basic layout for frontend side</li><li>Setup Cloudbased technology such as AWS Appsync, S3, Lambda for backend side </li></ul>
+  summary: <ul class="resume-item-list"><li>Project&colon; <a href="https://coursepal.app">Coursepal Connect</a></li><li>Design and Implement the basic layout for frontend side</li><li>Setup Cloudbased technology such as AWS Appsync, S3, Lambda for backend side </li><li>Technology Stack &colon; AWS Amplify, Appsync, VueJS </li></ul>
