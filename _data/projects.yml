@@ -30,12 +30,12 @@
   # duration: 2007 &mdash; Present
   # url: "#"
   category: Graphics and Videogame
-  description: <ul><li>Project&colon; <a href="gitlab.com/dangkhoa1996/wizwar">WizWar</a></li><li>Basic shape rendering using OpenGL API</li><li>Static Model Loading</li><li>Novice Animation System based on Vertex Blending techniques</li><li>Physic system&colon; Physx SDK</li><li>Technology Stack&colon; C++, OpenGL, PhysX SDK, Assimp</li></ul>
+  description: <ul><li>Project&colon; <a href="https://gitlab.com/dangkhoa1996/wizwar" target="__blank">WizWar</a></li><li>Basic shape rendering using OpenGL API</li><li>Static Model Loading</li><li>Novice Animation System based on Vertex Blending techniques</li><li>Physic system&colon; Physx SDK</li><li>Technology Stack&colon; C++, OpenGL, PhysX SDK, Assimp</li></ul>
 
 - project: Alpha Hotel Website
   # role: Co-Founder & Organizer
   # duration: 2007 &mdash; Present
   # url: "#"
   category: Web Application
-  description: <ul><li>Project&colon; <a href="github.com/kodah2510/AlphaHotel">Alpha Hotel</a></li><li>A hotel room booking app</li><li>Frontend built in Bootstrap, JQuery</li><li>Use Laravel Framework for backend implementaion</li><li>Online payment using Stripe API</li><li>Technology Stack&colon; Laravel, Bootstrap</li></ul>
+  description: <ul><li>Project&colon; <a href="https://github.com/kodah2510/AlphaHotel">Alpha Hotel</a></li><li>A hotel room booking app</li><li>Frontend built in Bootstrap, JQuery</li><li>Use Laravel Framework for backend implementaion</li><li>Online payment using Stripe API</li><li>Technology Stack&colon; Laravel, Bootstrap</li></ul>
 

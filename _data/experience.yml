@@ -11,9 +11,13 @@
   duration:  Mar, 2019 &mdash;  Jan, 2020
   summary: <ul class="resume-item-list"><li>Project&colon; <a href="http://app.relearnapp.com/">Relearn</a></li><li>Creating website layout/user interface by using standard ReactJS practices</li><li>Intergrating data from NodeJS and AWS back-end services</li><li>Technology Stack&colon; ReactJS, NodeJS</li></ul>
 
-
 # Communications Coordinator
 - company: Use Your Powers
   position: WordPress Developer
   duration:   Jan, 2020  &mdash; Jun, 2020
   summary: <ul class="resume-item-list"><li>Project&colon; <a href="https://mybraincamp.com/">MyBrainCamp</a></li><li>Updating new contents from product owner</li><li>Design UI/UX based on the provision of product owner</li><li>Managing backend plugins including Mailchimp, Woocommerce and Elementor.</li></ul>
+
+- company: BRIKS
+  position: Junior Fullstack Developer
+  duration: Sep 2020 &mdash now
+  summary: <ul class="resume-item-list"><li>Project&colon; <a href="https://coursepal.app">Coursepal Connect</a></li><li>Design and Implement the basic layout for frontend side</li><li>Setup Cloudbased technology such as AWS Appsync, S3, Lambda for backend side </li></ul>
