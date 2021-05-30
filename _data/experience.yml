@@ -1,15 +1,9 @@
 # Jobs
 # VP of Global Communications
-- company: Punch Entertainment
-  position: Junior Game Engineer
-  duration: Jun, 2018 &mdash; Jan, 2019
-  summary: <ul class="resume-item-list"><li>Project&colon; <a href="https://apps.qoo-app.com/en/app/1837">Three Kingdoms </a></li><li>Maintaineing server-side code and developing various features in the game</li><li>Worked closely with game designers to delivery new contents</li><li>Technology stack &colon; HTML, CSS, Javascript, Perl</li></ul>
-
-# Director of Digital Stratgy
 - company: BRIKS
-  position: Web Developer Intern
-  duration:  Mar, 2019 &mdash;  Jan, 2020
-  summary: <ul class="resume-item-list"><li>Project&colon; Relearn</li><li>Creating website layout/user interface by using standard ReactJS practices</li><li>Intergrating data from NodeJS and AWS back-end services</li><li>Technology Stack&colon; ReactJS, NodeJS</li></ul>
+  position: Junior Fullstack Developer
+  duration: Sep 2020 &mdash; May 2021
+  summary: <ul class="resume-item-list"><li>Project&colon; <a href="https://coursepal.app">Coursepal Connect</a></li><li>Design and Implement the basic layout for frontend side</li><li>Setup Cloudbased technology such as AWS Appsync, S3, Lambda for backend side </li><li>Technology Stack &colon; AWS Amplify, Lambda, RDS, VueJS </li></ul>
 
 # Communications Coordinator
 - company: Use Your Powers
@@ -17,7 +11,13 @@
   duration:   Jan, 2020  &mdash; Jun, 2020
   summary: <ul class="resume-item-list"><li>Project&colon; <a href="https://mybraincamp.com/">MyBrainCamp</a></li><li>Updating new contents from product owner</li><li>Design UI/UX based on the provision of product owner</li><li>Managing backend plugins including Mailchimp, Woocommerce and Elementor.</li></ul>
 
+# Director of Digital Stratgy
 - company: BRIKS
-  position: Junior Fullstack Developer
-  duration: Sep 2020 &mdash; now
-  summary: <ul class="resume-item-list"><li>Project&colon; <a href="https://coursepal.app">Coursepal Connect</a></li><li>Design and Implement the basic layout for frontend side</li><li>Setup Cloudbased technology such as AWS Appsync, S3, Lambda for backend side </li><li>Technology Stack &colon; AWS Amplify, Appsync, VueJS </li></ul>
+  position: Web Developer Intern
+  duration:  Mar, 2019 &mdash;  Jan, 2020
+  summary: <ul class="resume-item-list"><li>Project&colon; Relearn</li><li>Creating website layout/user interface by using standard ReactJS practices</li><li>Intergrating data from NodeJS and AWS back-end services</li><li>Technology Stack&colon; ReactJS, NodeJS</li></ul>
+
+- company: Punch Entertainment
+  position: Junior Game Engineer
+  duration: Jun, 2018 &mdash; Jan, 2019
+  summary: <ul class="resume-item-list"><li>Project&colon; <a href="https://apps.qoo-app.com/en/app/1837">Three Kingdoms </a></li><li>Maintaineing server-side code and developing various features in the game</li><li>Worked closely with game designers to delivery new contents</li><li>Technology stack &colon; HTML, CSS, Javascript, Perl</li></ul>

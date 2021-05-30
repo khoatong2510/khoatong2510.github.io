@@ -7,7 +7,7 @@
   # duration: 2017
   # url: "#"
   category: Software Application
-  description: <ul><li>LMS app includes simple authentication, database basic CRUD operation</li><li>Technology Stack&colon; .NET Windows From, Microsoft SQL Server</li></ul>
+  description: <ul><li>LMS app includes simple authentication, database basic CRUD operations</li><li>Technology Stack&colon; .NET Windows Form, Microsoft SQL Server</li></ul>
 
 
 - project: Wireless Sensor Network (WSN) coverage problem
