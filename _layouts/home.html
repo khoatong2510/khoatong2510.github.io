@@ -3,22 +3,15 @@
   {% include head.html %}
   <body>
 
-
   <style>
     @keyframes fadein-anim {
-      from { opacity: 0.0; top: 100px; }
+      from { opacity: 0.0; top: 200px; }
       to { opacity: 1.0; top: 0px; }
     }
     .fadein-2s {
       position: relative;
       animation-name: fadein-anim;
-      animation-duration: 2.2s;
-    }
-    .fadein-delay-2s {
-      position: relative;
-      animation-name: fadein-anim;
-      animation-duration: 2.2s;
-      animation-delay: 0.2s;
+      animation-duration: 1.6s;
     }
 
     .column {
@@ -36,8 +29,8 @@
   </style>
   <div style="height: 100vh; width: 60vw; margin: auto; text-align: center;">
     <h1 class="fadein-2s welcome-title">Welcome!</h1>
-    <h2 class="fadein-delay-2s" style="margin-top: -50px; padding-bottom: 50px">My name Khoa Tong</h2>
-    <div class="fadein-delay-2s" >
+    <h2 class="fadein-2s" style="margin-top: -50px; padding-bottom: 50px">My name Khoa Tong</h2>
+    <div class="fadein-2s" >
       <div class="column">
         <h4>Checkout my Portfolios</h4>
         <a href="{{ 'portfolios' | prepend: site.baseurl }}"><img style="margin: auto" src="{{"/assets/project.svg" | relative_url}}" alt="Portfolios" width="100px"/></a>

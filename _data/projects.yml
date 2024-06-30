@@ -2,29 +2,6 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # jazznotes.io
-- project: Library Management System
-  # role: Founder & Primary Developer
-  # duration: 2017
-  # url: "#"
-  category: Software Application
-  description: <ul><li>LMS app includes simple authentication, database basic CRUD operations</li><li>Technology Stack&colon; .NET Windows Form, Microsoft SQL Server</li></ul>
-
-
-- project: Wireless Sensor Network (WSN) coverage problem
-  # role: Co-Founder & Organizer
-  # duration: 2007 &mdash; Present
-  # url: "#"
-  category: Alogrithm, Artificial Inteligent
-  description: <ul><li>Research on applying Evolutionary techniques to solve WSN coverage problem</li><li>Profiling and organize result in Python</li><li>Visualize algorithm in Javascript</li></ul>
-
-
-- project: Multi-objectives optimization problem
-  # role: Co-Founder & Organizer
-  # duration: 2007 &mdash; Present
-  # url: "#"
-  category: Alogrithm, Artificial Inteligent
-  description: <ul><li>Research on Multi-Factorial Optimization algorithm in TSP</li></ul>
-
 - project: OpenGL Rendering Engine
   # role: Co-Founder & Organizer
   # duration: 2007 &mdash; Present
