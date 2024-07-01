@@ -2,7 +2,7 @@
 title:          Khoa Tong
 description:    "Minimal Jekyll theme for storytellers"
 baseurl:        "/"
-url:            "https://kodah2510.github.io"
+url:            "https://khoatong2510.github.io"
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
@@ -10,7 +10,7 @@ google_analytics: UA—XXXXXXXX-X
 # Author
 author:
   name:         Khoa Tong
-  url:          https://kodah2510.github.io
+  url:          https://khoatong2510.github.io
   email:        khoa.tong2510@gmail.com
 
 # Build settings
@@ -66,9 +66,10 @@ resume_looking_for_work:        "yes"
 # Decide which sections to use
 # comment out to hide
 resume_section_experience:      true
+resume_section_certifications:   true
 resume_section_education:       true
 resume_section_projects:        true
-resume_section_skills:          true
+resume_section_skills:          false
 resume_section_recognition:     false
 resume_section_links:           false
 resume_section_associations:    true
@@ -77,13 +78,13 @@ resume_section_associations:    true
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_github_url:            "https://github.com/kodah2510"
+  resume_github_url:            "https://github.com/khoatong2510"
   # resume_twitter_url:           "http://twitter.com/jglovier"
   # resume_dribbble_url:          "https://dribbble.com/jag"
   # resume_facebook_url:          "insert Facebook URL here"
   resume_linkedin_url:          "https://www.linkedin.com/in/khoa-tong-b82ba417b/"
   # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "http://kodah2510.github.io"
+  resume_website_url:           "http://khoatong2510.github.io"
   # resume_medium_url:            "https://medium.com/@jglovier"
 resume_print_social_links:      true
 

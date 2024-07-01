@@ -1,15 +1,6 @@
 # Skills
-
-
-- skill: Web Technology
+- skill: Frontend
   description: React, React Native, Laravel, ExpressJS, WordPress
 
 - skill: Data Analysis Framework
   description: Scikit, Pandas, Tensorflow
-
-- skill: 3D Rendering
-  description: C++, OpenGL, PhysX
-
-- skill: Misc
-  description: Bash, Git, Google Cloud Platform
-

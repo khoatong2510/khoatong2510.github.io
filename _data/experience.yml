@@ -3,26 +3,36 @@
 - company: Kynd
   position: Fullstack Developer
   duration: July 2021 &mdash; Present
-  summary: 
-    <ul class="resume-item-list">
-      <li>
-        Project&colon; <a href="https://coursepal.app">Coursepal Connect</a>
-      </li>
+  summary: <ul class="resume-item-list">
+    <li>
+      Implementing, maintaining features and testing code following common coding principles and company's coding standard
+    </li>
 
-      <li>
-        Design and Implement the basic layout for frontend side
-      </li>
-      
-      <li>
-        Setup Cloudbased technology such as AWS Appsync, S3, Lambda for backend side
-      </li>
-      
-      <li>
-        Technology Stack &colon; AWS Amplify, Lambda, RDS, VueJS 
-      </li>
+    <li>
+      In charge of writing a feature using complex SQL queries to compose a comprehensive tasks list for the community team to manage users onboarding process.
+    </li>
+
+    <li> 
+      Introduce Playwright framework to the team, which reduces the workload of manual smoke testing. integrate the tests into the CI/CD system
+    </li>
+
+    <li>
+      Hands on experience with the data pipeline from ETL process using Scala in AWS Glue, to generating report using SQL in AWS Athena, and export data to 3rd party SaaS
+    </li>
+
+    <li>
+      Technology Stack&colon; Typescript, Serverless, AWS, VueJs
+    </li>
     </ul>
 
 - company: BRIKS
   position: Junior Fullstack Developer
   duration: Sep 2020 &mdash; May 2021
-  summary: <ul class="resume-item-list"><li>Project&colon; <a href="https://coursepal.app">Coursepal Connect</a></li><li>Design and Implement the basic layout for frontend side</li><li>Setup Cloudbased technology such as AWS Appsync, S3, Lambda for backend side </li><li>Technology Stack &colon; AWS Amplify, Lambda, RDS, VueJS </li></ul>
+  summary: 
+    <ul class="resume-item-list">
+
+    <li>Design and Implement the basic layout for frontend side</li>
+    <li>Setup Cloudbased technology such as AWS Appsync, S3, Lambda for backend side </li>
+    <li>Technology Stack &colon; AWS Amplify, VueJS </li>
+
+    </ul>
