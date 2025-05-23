@@ -4,25 +4,24 @@
   position: Fullstack Developer
   duration: July 2021 &mdash; Present
   summary: <ul class="resume-item-list">
-    <li>
-      Implementing, maintaining features and testing code following common coding principles and company's coding standard
-    </li>
-
-    <li>
-      In charge of writing a feature using complex SQL queries to compose a comprehensive tasks list for the community team to manage users onboarding process.
-    </li>
-
-    <li> 
-      Introduce Playwright framework to the team, which reduces the workload of manual smoke testing. integrate the tests into the CI/CD system
-    </li>
-
-    <li>
-      Hands on experience with the data pipeline from ETL process using Scala in AWS Glue, to generating report using SQL in AWS Athena, and export data to 3rd party SaaS
-    </li>
-
-    <li>
-      Technology Stack&colon; Typescript, Serverless, AWS, VueJs
-    </li>
+      <li><strong>Front End</strong>
+        <ul>
+          <li>Owning an in-house tool for the internal team to manage current users, outlining crucial tasks for CRM, business reports, and admin data configuration.</li>
+          <li>Implemented and maintained scalable features using VueJS, focusing on reusable components and modular architecture.</li>
+          <li>Collaborated with designers using Figma to deliver intuitive UI/UX.</li>
+          <li>Applying best practices in design systems, accessibility, and front-end performance optimization.</li>
+          <li>Introduce Playwright framework to the team, which reduces the workload of manual smoke testing. Integrated the tests into the CI/CD system.</li>
+        </ul>
+      </li>
+      <li><strong>Back End</strong>
+        <ul>
+          <li>In charge of writing a feature using complex SQL queries to compose a comprehensive tasks list for the community team to manage users onboarding process.</li>
+          <li>Hands-on experience with the data pipeline from ETL process using Scala in AWS Glue, to generating reports using SQL in AWS Athena, and exporting data to 3rd party SaaS.</li>
+          <li>Moving Gitlab CI/CD pipeline to Buildkite</li>
+          <li>Containerizing the platform integration test, which reduces the time to run the test from 2 hours to 30 mins</li>
+        </ul>
+      </li>
+      <li>Technology Stack&colon; Typescript, Serverless, AWS, VueJs</li>
     </ul>
 
 - company: BRIKS

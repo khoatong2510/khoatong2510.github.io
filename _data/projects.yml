@@ -2,17 +2,28 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # jazznotes.io
+- project: Vue Chat App
+  category: Web Application
+  description: <ul><li>Full stack chat app using Vue 3, Pinia, GraphQL, AWS AppSync, AWS DynamoDB</li><li>Self-implemented emoji picker rendering with autocomplete</li><li>Color theme generation using TailwindCSS</li><li>Developed a reusable components library</li><li>Implemented real-time messaging via WebSocket using AppSync and Apollo</li><li>Technology Stack&colon; Vue 3, GraphQL, AWS AppSync, DynamoDB, TailwindCSS, Apollo</li></ul>
+
+- project: E-commerce App
+  category: Web Application
+  description: <ul><li>Frontend shopping app built with Nuxt</li><li>Implemented server-side rendering architecture for SEO and performance</li><li>Integrated payment API for online transactions</li><li>Technology Stack&colon; Nuxt, Vue, Payment API</li></ul>
+
+- project: Admin Product Management
+  category: Web Application
+  description: <ul><li>Frontend admin app using React and Docker</li><li>Scraped product data from Universal Store website</li><li>Implemented a CRUD solution to manage SKU data</li><li>Technology Stack&colon; React, Docker, Web Scraping</li></ul>
+
 - project: OpenGL Rendering Engine
   # role: Co-Founder & Organizer
   # duration: 2007 &mdash; Present
   # url: "#"
   category: Graphics and Videogame
-  description: <ul><li>Project&colon; <a href="https://gitlab.com/dangkhoa1996/wizwar" target="__blank">WizWar</a></li><li>Basic shape rendering using OpenGL API</li><li>Static Model Loading</li><li>Novice Animation System based on Vertex Blending techniques</li><li>Physic system&colon; Physx SDK</li><li>Technology Stack&colon; C++, OpenGL, PhysX SDK, Assimp</li></ul>
+  description: <ul><li>Basic shape rendering using OpenGL API</li><li>Static Model Loading</li><li>Novice Animation System based on Vertex Blending techniques</li><li>Physic system&colon; Physx SDK</li><li>Technology Stack&colon; C++, OpenGL, PhysX SDK, Assimp</li></ul>
 
 - project: Alpha Hotel Website
   # role: Co-Founder & Organizer
   # duration: 2007 &mdash; Present
   # url: "#"
   category: Web Application
-  description: <ul><li>Project&colon; <a href="https://github.com/khoatong2510/AlphaHotel">Alpha Hotel</a></li><li>A hotel room booking app</li><li>Frontend built in Bootstrap, JQuery</li><li>Use Laravel Framework for backend implementaion</li><li>Online payment using Stripe API</li><li>Technology Stack&colon; Laravel, Bootstrap</li></ul>
-
+  description: <ul><li>A hotel room booking app</li><li>Frontend built in Bootstrap, JQuery</li><li>Use Laravel Framework for backend implementaion</li><li>Online payment using Stripe API</li><li>Technology Stack&colon; Laravel, Bootstrap</li></ul>
