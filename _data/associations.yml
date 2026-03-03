@@ -20,14 +20,14 @@
       <li>Technology Stack&colon; ReactJS, ExpressJS</li>
     </ul>
 
-- organization: Queensland VR Hackathon 2019
-  role: Participant
-  year: Oct, 2019
-  summary: <ul><li>Built a small VR game demo under the theme of "Sustainable"</li><li>Technology used&colon; C#, Unity</li></ul>
+# - organization: Queensland VR Hackathon 2019
+#   role: Participant
+#   year: Oct, 2019
+#   summary: <ul><li>Built a small VR game demo under the theme of "Sustainable"</li><li>Technology used&colon; C#, Unity</li></ul>
 
-- organization: SIGGRAPH Asia 2019
-  role: Volunteer
-  year: Nov, 2019
-  # url: https://sa2019.siggraph.org/
-  summary: Guests enquires support, entry badgets checking, event preparation support
+# - organization: SIGGRAPH Asia 2019
+#   role: Volunteer
+#   year: Nov, 2019
+#   # url: https://sa2019.siggraph.org/
+#   summary: Guests enquires support, entry badgets checking, event preparation support
 

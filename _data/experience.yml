@@ -1,8 +1,8 @@
 # Jobs
 # VP of Global Communications
 - company: Kynd
-  position: Fullstack Developer
-  duration: July 2021 &mdash; Present
+  position: Full Stack Software Engineer
+  duration: July 2021 &mdash; July 2025
   summary: <ul class="resume-item-list">
       <li><strong>Front End</strong>
         <ul>
@@ -21,7 +21,7 @@
           <li>Containerizing the platform integration test, which reduces the time to run the test from 2 hours to 30 mins</li>
         </ul>
       </li>
-      <li>Technology Stack&colon; Typescript, Serverless, AWS, VueJs</li>
+      <li>Technology Stack&colon; Typescript, Serverless, AWS Services, Vue, Docker, Buildkite</li>
     </ul>
 
 - company: BRIKS

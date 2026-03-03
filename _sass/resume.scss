@@ -9,3 +9,17 @@
 
 // Layouts
 @import "resume/resume";
+
+@media print {
+  nav {
+    display: none;
+  }
+}
+
+.print-only {
+  display: none;
+  
+  @media print {
+    display: block;
+  }
+}
